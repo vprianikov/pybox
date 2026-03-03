@@ -1,0 +1,9 @@
+[project]
+name = "example"
+version = "0.1.0"
+description = "Example workspace demonstrating pybox project setup"
+readme = "README.md"
+dependencies = []
+
+[dependency-groups]
+dev = ["shared"]

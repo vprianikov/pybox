@@ -1,0 +1,12 @@
+[project]
+name = "space"
+version = "0.1.0"
+description = "Shared utilities and tooling dependencies for pybox workspaces"
+readme = "README.md"
+dependencies = [
+  "commitizen>=3.31.0",
+  "jupyter>=1.1.1",
+  "pre-commit>=3.5.0",
+  "python-dotenv>=1.0.1",
+  "ruff>=0.15.2",
+]

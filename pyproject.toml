@@ -1,0 +1,20 @@
+[project]
+name = "pybox"
+version = "0.1.0"
+description = "Monorepo workspace for pybox experiments and shared packages"
+readme = "README.md"
+requires-python = "==3.8.20"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["packages/*", "workspaces/*"]
+
+[tool.uv.sources]
+space = { workspace = true }
+
+[dependency-groups]
+dev = ["space"]
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
