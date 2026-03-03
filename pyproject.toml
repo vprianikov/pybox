@@ -10,6 +10,7 @@ dependencies = []
 members = ["packages/*", "workspaces/*"]
 
 [tool.uv.sources]
+hello = { workspace = true }
 space = { workspace = true }
 
 [dependency-groups]

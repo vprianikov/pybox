@@ -2,6 +2,7 @@
     "recommendations": [
         "charliermarsh.ruff",
         "ms-python.python",
+        "ms-python.vscode-pylance",
         "ms-toolsai.datawrangler",
         "ms-toolsai.jupyter",
         "tamasfe.even-better-toml",

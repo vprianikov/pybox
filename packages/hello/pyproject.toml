@@ -1,0 +1,9 @@
+[project]
+name = "hello"
+version = "0.1.0"
+description = "Simple hello package used by example workspace"
+readme = "README.md"
+dependencies = []
+
+[dependency-groups]
+dev = ["shared"]
