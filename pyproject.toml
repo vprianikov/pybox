@@ -1,6 +1,6 @@
 [project]
 name = "pybox"
-version = "0.1.0"
+version = "0.1.1"
 description = "Monorepo workspace for pybox experiments and shared packages"
 readme = "README.md"
 requires-python = "==3.8.20"
