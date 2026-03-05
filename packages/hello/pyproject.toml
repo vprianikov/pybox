@@ -6,4 +6,4 @@ readme = "README.md"
 dependencies = []
 
 [dependency-groups]
-dev = ["shared"]
+dev = ["space"]
